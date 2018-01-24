@@ -1,0 +1,110 @@
+<HTML>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Golden State Warriors </title>
+    <meta name="description" content="Recent updates of games and scores on Warriors games" >
+    <link rel="stylesheet" href="my_css_file.css">
+    <script src="my_javascript_library.js"></script>
+    <script src="another_javascript_file.js
+copy
+"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="logo">
+      <h1><a href="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png"> <!-- will this link work? -->
+    <img src="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png">
+</a></h1>
+      <ul>
+          <li>About</li>
+          <li>Games</li>
+          <li>Tickets</li>
+      </ul>
+    </div>
+    <div id="Main Content">
+        <h2> About the Warriors </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat ultricies diam, posuere cursus justo tristique ut. Suspendisse iaculis ornare augue, a molestie arcu sollicitudin in. Duis vehicula ex sem, ac hendrerit felis aliquet sed. Vestibulum consequat diam eget tincidunt semper. Morbi tellus ex, tempor sit amet scelerisque eu, mollis a diam. Pellentesque accumsan, ligula nec congue hendrerit, est enim lobortis sapien, non consectetur urna ex ut tortor. Integer ultricies purus ac augue iaculis, vel vehicula sem euismod. Morbi elementum odio sed fringilla suscipit.</p>
+        <h3> Last Nights Game </h3>
+        <p>Morbi auctor a turpis sit amet ornare. Praesent ut efficitur orci. Quisque finibus orci quis urna volutpat volutpat. Aliquam erat volutpat. Sed a tempus est, at maximus magna. Duis condimentum mauris in euismod mattis. Sed ornare lorem elit, in dictum risus euismod sed. Phasellus vulputate cursus sapien, et vulputate risus. Ut augue tortor, hendrerit et blandit quis, venenatis eu ante. Proin viverra erat id augue elementum finibus. Nunc dictum erat eget rutrum dictum. Suspendisse sed hendrerit odio. Etiam nec accumsan erat. Vestibulum vestibulum scelerisque laoreet. Phasellus tellus erat, condimentum at molestie ac, maximus quis leo. Nulla at tellus non diam suscipit suscipit id eu velit.</p>
+        <h4> Past 4 Games </h4>
+        <table>
+          <thead>
+            <tr>
+              <th>1/20</th>
+              <th>1/17</th>
+              <th>1/15</th>
+              <th>1/13</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>loss</td>
+                <td>win</td>
+                <td>win</td>
+                <td>win</td>
+              </tr>
+              <tr>
+                <td>116-108</td>
+                <td>118-108</td>
+                <td>119-112</td>
+                <td>127-125</td>
+              </tr>
+          </body>
+        </table>
+        <a href="https://www.youtube.com/results?search_query=warriors+games">Click here for Game Highlights</a>
+      </div>
+      <div id="form">
+        <form action="process.php" method="post">
+          <h5> Warriors Survey </h5>
+          <p><label for="First_Name">First Name:</label>
+          <input type="text" id="First_Name" name="First_Name"></p>
+
+          <p><label for="Last_Name">Last Name:</label>
+          <input type="text" id="Last_Name" name="Last_Name"></p>
+
+          <p><label for="email">Email:</label>
+          <input type="text" id="email" name="email"></p>
+
+
+          <p><label for="Birthday">Birthday:</label>
+          <input type="date" id="Birthday" name="Birthday"></p>
+
+          <p>Warriors Fan?</p>
+          <p><label for="No">No</label>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="Yes">Yes</label>
+          <input type="radio" id="Yes" name="Yes" value="Yes">
+          </p>
+
+          <p>A short description about yourself:</p>
+          <p><textarea name="description"></textarea></p>
+
+
+          <p>MVP of Warriors:</p>
+          <p><select name="Favorite Player">
+            <option value="Stephen Curry">Stephen Curry</option>
+            <option value="Kevin Durant">Kevin Durant</option>
+            <option value="Draymond Greene">Draymond Green</option>
+          </select></p>
+
+          <p> Teams that you might think are a challenge </p>
+          <label for="blue">Cavaliers</label>
+          <input type="checkbox" id="blue" name="color" value="blue">
+          <label for="green">OKC</label>
+          <input type="checkbox" id="green" name="color" value="green">
+          <label for="red">Knicks</label>
+          <input type="checkbox" id="red" name="color" value="red">
+          <label for="black">Celtics</label>
+          <input type="checkbox" id="black" name="color" value="black">
+          <label for="purple">Spurs</label>
+          <input type="checkbox" id="purple" name="color" value="purple">
+
+          <p><input type="submit" value="Submit"></p>
+        </form>
+      </div>
+
+    </body>
+</html>
