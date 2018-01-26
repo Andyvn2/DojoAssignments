@@ -15,9 +15,7 @@ copy
 <body>
   <div id="wrapper">
     <div id="logo">
-      <h1><a href="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png"> <!-- will this link work? -->
-    <img src="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png">
-</a></h1>
+      <h1>Header</h1>
       <ul>
           <li>About</li>
           <li>Games</li>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Position Practice</title>
+      <link rel="stylesheet" type="text/css" href="stylesportfolio">
+   </head>
+   <body>
+       <div id="header">
+         <h1>Jayne Doe</h1>
+         <h2> Master of shadows and the internet!</h2>
+       <div id="wrapper">
+         <div id="profilepicture">
+          <img src="photo_of_me.jpg" alt:"php.png" width=600  height=300  >
+         </div>
+         <div id="about_me">
+         <h3> About... </h3>
+         <br>Hello! Im an extremely driven and creative Full Stack Developer who is currently open for career opoortunities as a gront end or back end webs developer in the fgreater seattle area.<br>
+         <br>Im a recent graduate of coding dojo, a coding school located in bellevue, wathat teaches 4 full stacks in 3 months. Im capabe of learning new technologies very quickly, and am always looking for opportunitiesto futther expand my skills and grow as a developer.<br>
+         <br><a href="http://www.google.com">Continue reading...</a>
+         </div>
+         <div id="extra_content">
+            <div class="subcontents">
+              <h4> La Mode </h4>
+              <img class="content" src="lamode.png" alt="php.png" width=432 height=200>
+              <p>la mode is an ecommerce website fir designed to market various clothing products. users are unable to view the availablegarments, select their desited quanitity, and compil e a shopping cart for making a final purchase.</p>
+              <h5> Technologies </h5>
+                <div class="buttons">
+                  <img class="technology" src="bootstrap.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="ajax.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="angular.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="django.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="html.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="lamp.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="d3.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="expressjs.png" alt="php.png" Height=75  width=75 >
+                </div>
+                <div id=submit>
+                  <p2><input type="submit" value="La Mode" alt="php.png"></p2>
+                </div>
+            </div>
+            <div class="subcontents">
+              <h4> Family Contacts  </h4>
+              <img class="content" src="familycontacts.png" alt="php.png" width=432 height=200>
+              <p>Family contacts is a free application for managing, sharingm and visualizing your family relationships for both extended and inmmediate family. As an essential feature of the projet, your log-in information determines who you can see and reveals how people are relation to yu.</p>
+              <h5> Technologies </h5>
+                <div class="buttons">
+                  <img class="technology" src="bootstrap.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="ajax.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="angular.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="django.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="html.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="lamp.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="d3.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="expressjs.png" alt="php.png" Height=75  width=75 >
+                </div>
+                <div id="submit1">
+                <p2><input type="submit" value="Family Contacts" alt="php.png"></p2>
+                </div>
+            </div>
+            <div class="subcontents">
+              <h4> fiveEleven </h4>
+              <img class="content" src="fiveEleven.png" alt="php.png" width=432 height=200>
+              <p> Five eleven is a data visualization project built on the python software stack. The application transforms the developer job hunt into a more visual, user friendly experience. Based on location, technology populatiry and other vast data sets, users may easily visualize the varying sizes and concentrations f the junior developer job market across the nation.</p>
+              <h5> Technologies </h5>
+                <div class"buttons">
+                  <img class="technology" src="bootstrap.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="ajax.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="angular.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="django.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="html.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="lamp.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="d3.png" alt="php.png" Height=75  width=75 >
+                  <img class="technology" src="expressjs.png" alt="php.png" Height=75  width=75 >
+                </div>
+                <div id=submit2>
+                <p2><input type="submit" value="fiveEleven" alt="php.png"></p2>
+                </div>
+            </div>
+            <div id="footer">
+               <div class="footer">
+                 <br>jdoe@gmail.com<br>
+                 <br> <a href="www.google.com"><img src="github.png" alt="php.png" width=15  height=15 ></a>
+                 <a href="http://www.google.com">jaynedev</a>
+                      <a href="www.google.com"><img src="linkedin.png" alt="php.png" width=15  height=15 ></a>
+                 <a href="http://www.google.com">jayne-doe</a>
+                      <a href="www.google.com"><img src="twitter.png" alt="php.png" width=15  height=15 ></a>
+                 <a href="http://www.google.com">jdtweets</a>
+                      <a href="www.google.com"><img src="codepen.png" alt="php.png" width=15 height=15></a>
+                 <a href="http://www.google.com">jaynedev</a><br>
+               </div>
+          </div>
+      </div>
+   </body>
+
+</html>

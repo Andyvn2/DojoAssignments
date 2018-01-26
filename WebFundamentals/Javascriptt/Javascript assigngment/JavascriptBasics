@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript</title>
+      <link rel="stylesheet" type="text/css" href="javascriptbasicscss">
+   </head>
+   <body>
+       <div id="wrapper">
+         <div id="header">
+           <h1> JavaScript Basics</h1>
+         </div>
+         <div id="navigation">
+           <ul>
+             <li><a href="Home">Home</a></li>
+              <ul>
+                <li>
+                  <a href="javascriptoverview">JaveScript Overview</a></i>
+                  <ul>
+                      <li><a href="variabledeclaration"> Variable Declaration</a></li>
+                      <li><a href="VariableAssignment"> Variable Assignment</a></li>
+                      <li><a href="DataType"> Data Type</a></li>
+                      <li><a href="conditionals"> Conditionals</a></li>
+                      <li><a href="Loops"> Loops </a></li>
+                      <li><a href="function"> Function </a></li>
+                  </ul>
+              </ul>
+                <li>
+                  <a href="Projects">Projects</a>
+                </li>
+                <li>
+                      <a href="Assignments">Assignments</a>
+                </li>
+                <li>
+                    <a href="quiz">Quiz</a>
+                </li>
+            </ul>
+         </div>
+         <div id="main_content">
+         <h2> JavaScript Basics </h2>
+         <p>Suspendisse viverra dui ante, a iaculis neque hendrerit vel. Praesent tempor nec mi eu aliquet. In luctus condimentum consequat. Pellentesque sit amet ornare nibh. Nam in metus a lorem pretium mollis eu nec mauris. Nunc molestie, libero ac placerat aliquet, sapien justo iaculis libero, id faucibus turpis urna in leo. Nunc id auctor orci. Etiam ultricies blandit vestibulum. Integer egestas eu eros non finibus. Aliquam erat volutpat. Vivamus sollicitudin, sem tempor gravida tempus, felis neque pharetra lorem, sed iaculis lacus nibh non erat. Nam eu aliquet orci, id rutrum massa.</p>
+
+          <ul>
+            <li>
+              <a href="variabledeclaration">Variable Declaration</a>
+              <p>Fusce ut tincidunt turpis. Cras est mauris, sagittis sed arcu id, feugiat porttitor dolor. Mauris ipsum dolor, dictum eu nulla at, laoreet feugiat sapien. Praesent posuere dictum lectus, at dictum leo eleifend eget. Aenean porttitor enim sem, nec finibus felis eleifend a. Cras rutrum eget neque id suscipit. </p></li>
+         </div>
+        <div id="footer"></div>
+      </div><!-- end of wrapper -->
+   </body>
+</html>
