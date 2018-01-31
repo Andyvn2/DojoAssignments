@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+<title> Fancy Array</title>
+  <script>
+  function fancyarray(arr){
+    for ( var index=0; index<arr.length; index++)
+    console.log(index+ "->" + arr[index]);
+  }
+
+fancyarray(["James", "Jill", "Jane", "Jack"]);
+
+  </script>
+</html>

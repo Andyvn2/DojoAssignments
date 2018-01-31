@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<head>
+  <title> Start,end,Skip</title>
+  <script>
+  function printrange(start,end,skip){
+      for ( var num = start; num<end; i+num )
+        console.log(num)
+      }
+  </script>
+</html>

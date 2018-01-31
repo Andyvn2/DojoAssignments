@@ -1,0 +1,30 @@
+<!DOCTYPE html?>
+
+<head>
+  <title> I do declare </title>
+  <script>
+    var Hour = 8;
+    var Minute = 50;
+    var Period = "AM";
+
+    if (Period!="AM")
+    {
+      if (Minute<=30)
+      {
+        console.log("It's just after"+ Hour+ "in the evening");
+      }
+      else {
+        console.log("it's almost "+ " "+ (Hour+1)+ " " + " in the evening");
+      }
+    }
+    else {
+      if(Minute<=30)
+      {
+        console.log("It's just after"+ Hour+ "in the morning");
+      }
+      else {
+        console.log("It's almost "+ (Hour+1) + " " + "in the morning");
+      }
+    }
+    </script>
+</head>

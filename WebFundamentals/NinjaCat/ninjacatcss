@@ -1,0 +1,18 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+/* #cat10.off{
+  display:none;
+}
+
+#cat1{
+  width: auto;
+  height: auto;
+  background: #fff url("cat0.png") no-repeat 0 0;
+}
+
+#btn.off{
+  background:#fff url("ninja0.png") no-repeat 0 0;
+} */

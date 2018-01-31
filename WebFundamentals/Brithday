@@ -1,0 +1,26 @@
+<!DOCTYPE Html>
+
+<head>
+  <title> Birthday Countdown</title>
+  <script>
+    var daysuntilmybirthday = 60;
+
+    for( var i = daysuntilmybirthday; i > 0; i--){
+    if (i>30){
+      console.log(i+"days until my birthday. Such a long time....:(");
+        daysuntilmybirthday=-1;
+      }
+      else if (i>5&&i<31)
+    {
+      console.log(i+"days until my birhtday. I SO ESSITEDD!");
+      daysuntilmybirthday=-1;
+    }
+      else if (i>0&&i<6)
+      console.log(i+"DAYS UNTIL MY BIRTHDAYYY!!!!");
+      daysuntilmybirthday=-1;
+    }
+
+    console.log("!!!!~(@.@)~ HAPPY BIRTHDAYYY c(@.@c)!!!!")
+
+    </script>
+  </html>

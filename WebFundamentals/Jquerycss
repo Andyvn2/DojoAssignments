@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper{
+  width:1000px;
+  height:1500px;
+  background-color: Grey;
+}
+
+#button1{
+  width:1000px;
+  height: 200px;
+  background-color: red;
+}
+
+#button2{
+  width:1000px;
+  height: 200px;
+  background-color: blue;
+}
+
+#body{
+  width:1000px;
+  height: 600px;
+  background-color: white;
+}
+
+.blue{
+  color: blue;
+}
+
+
+h1{
+  width:1000px;
+  height: 100px;
+  background-color: blue;
+
+}
+
+h3{
+  width:1000px;
+  height: 30px;
+  background-color: blue;
+}
+
+#button3{
+  width:1000px;
+  height:300px;
+  background-color: green;
+}

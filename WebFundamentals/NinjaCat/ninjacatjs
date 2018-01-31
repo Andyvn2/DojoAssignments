@@ -1,0 +1,15 @@
+$(document).ready(function(){
+  alert('ready to go');
+  $("#cat1").click(function(){
+    $("#1").toggle(800,function(){
+      if($("#1").is(":visible")){
+        $("#cat1").attr("ninja0.png", this.href);
+      }elst{
+        $("#cat").attr("cat0.png",this.href);
+      }
+    })
+  })
+
+
+
+        });

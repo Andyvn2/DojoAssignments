@@ -1,0 +1,18 @@
+<!DOCTYPE html?>
+
+<head>
+  <title> I do declare </title>
+  <script>
+    var favoritenumber=28;
+    var luckynumber=8;
+    var currynumber=30;
+    var date=29;
+
+    var karate="Jackie Chan";
+    var Master="Ip Man";
+    var Legendary="Bruce Lee";
+
+    var "2+5"=true;
+    var "9+10"=false;
+  </script>
+</head>

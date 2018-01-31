@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Practice</title>
+    <link rel="stylesheet" type="text/css" href="jquerycss">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('h2').click(function(){
+            alert('hello');
+            })
+
+          alert("you are now working with Jquery");
+
+          $("#hide").click(function(){
+          $("p").hide();
+        });
+
+          $('show').click(function(){
+          $('p').show();
+        });
+
+          $('h1').hover(function(){
+            $('h2').text('go to google.com');
+          })
+
+          $( 'h3' ).click(function () {
+            if ( $( "p" ).is( ":hidden" ) ) {
+                $( "p" ).slideDown( "slow" );
+              } else {
+                $( "p" ).hide();
+              }
+            });
+
+          $( 'hiddeninja' ).click(function () {
+              if ( $( '.fade' ).is( ":hidden" ) ) {
+                  $( '.fade' ).slideDown( "slow" );
+                } else {
+                  $( '.fade' ).hide();
+                }
+              });
+
+          $('p').last().addClass("blue");
+
+          $(".inner").append("<p>Andy <p>");
+
+      });
+    </script>
+  </head>
+  <body>
+      <div id="header">
+        <h1> Hello! </h1>
+      </div>
+      <div id="wrapper">
+        <div id="button1"
+          <h2> Click Here!</h2>
+          <!-- <a href="#">Add Class</a><p>Click on the button to add class 'red' to the paragraph</p>
+          <p><input type="submit" value="Add Class"></p> -->
+          <button id="hide"> This will hide all paragraphs!</button>
+          <button id='show'> This will show all paragraphs!</button>
+        </div>
+        <div id="button2">
+          <p class='disappear'>This is a paragraph that is about the page. This is the page where
+            I will list the JQuery commands that I have learned.</p>
+          <h3><button id=slideparagraphs> Slide Hide</button></h3><p id=description>This Button will Slide Hide Parapgrahps</p>
+        </div>
+        <div id="button4">
+          <div class="inner">Hello</div>
+          <div class="inner">Join Me</div>
+
+        </div>
+        <div id="button3">
+          Click here
+          <!-- <button id='hideninja'> This button will slide out ninja</button> -->
+        <img class="fade" src="ninja.png" alt="loading ninja" width=150>
+        <p>Goodbye</p>
+      </div>
+      </div>
+
+
+  </body>
+</html>

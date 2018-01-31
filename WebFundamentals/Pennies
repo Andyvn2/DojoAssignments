@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<head>
+<script>
+  var sum=0
+  for (var i=0; i<30; i++){
+    sum=+(.01*2)+sum
+  }
+  console.log(sum)
+</script>
+</head>
