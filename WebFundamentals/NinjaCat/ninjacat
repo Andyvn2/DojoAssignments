@@ -5,42 +5,23 @@
     <title>Ninja Cat</title>
     <link rel="stylesheet" type="text/css" href="ninjacatcss">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      $('img').click(function(){
-        $(this).attr('src',$(this).attr('data-alt-src'));
-        });
-      //   $(this).attr('data-alt-src', $(this).attr('src');
-      // });
-
-    // $("#firstcat").click(function(){
-    //   var x = $("#firstcat").attr("data-alt-src");
-    //   $("#firstcat").attr("src", x );
-    //   var y = $("#firstcat").attr("src");
-    //   $("#firstcat").attr("data-alt-src", y );
-    //
-    // });
-
-});
-
-
-    </script>
+    <script src="ninjacatjs"></script>
   </head>
   <body>
 
     <div id="cat10">
-      <img id="firstcat" src="cat0.png" data-alt-src="ninja0.png">
-    <div id="cat2">
-      <img id="firstcat" src="cat1.png" data-alt-src="ninja1.png">
+      <img class="firstcat" src="cat0.png" data-alt-src="ninja0.png">
+    <div id="cat10">
+      <img class="firstcat" src="cat1.png" data-alt-src="ninja1.png">
     </div>
-    <div id="cat3">
-      <img id="firstcat" src="cat2.png" data-alt-src="ninja2.png">
+    <div id="cat10">
+      <img class="firstcat" src="cat2.png" data-alt-src="ninja2.png">
     </div>
-    <div id="cat4">
-      <img id="firstcat" src="cat3.png" data-alt-src="ninja3.png">
+    <div id="cat10">
+      <img class="firstcat" src="cat3.png" data-alt-src="ninja3.png">
     </div>
-    <div id="cat5">
-      <img id="firstcat" src="cat4.png" data-alt-src="ninja4.png">
+    <div id="cat10">
+      <img class="firstcat" src="cat4.png" data-alt-src="ninja4.png">
     </div>
 
 

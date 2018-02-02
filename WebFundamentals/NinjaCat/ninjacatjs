@@ -1,15 +1,14 @@
 $(document).ready(function(){
-  alert('ready to go');
-  $("#cat1").click(function(){
-    $("#1").toggle(800,function(){
-      if($("#1").is(":visible")){
-        $("#cat1").attr("ninja0.png", this.href);
-      }elst{
-        $("#cat").attr("cat0.png",this.href);
-      }
-    })
-  })
+  // $("img").click(function(){
+  //   // $(this).attr('src',$(this).attr('data-alt-src'));
+  //   // });
+  //   // $(this).attr('data-alt-src', $(this).attr('src');
+  // });
 
-
-
-        });
+$("img").click(function(){
+  var x = $(this).attr("data-alt-src");
+    var y = $(this).attr("src");
+  $(this).attr("src", x );
+  $(this).attr("data-alt-src", y );
+    });
+});
