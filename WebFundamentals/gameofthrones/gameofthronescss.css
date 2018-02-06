@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width:800px;
+	height:1000px;
+	background-color: grey;
+}
+
+#banner{
+	width: 800px;
+	height: 200px;
+	background-color: black;
+}
+
+
+#infocard{
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 170px;
+	height: 500px;
+	width: 400px;
+	border: 2px, black;
+
+}
+
+p{
+	font-size:22rpx;
+}

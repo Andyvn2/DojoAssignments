@@ -1,0 +1,24 @@
+
+# if isinstance(name, int)== 1:
+# 	if name>=100:
+# 		print "Thats a big number!"
+# 	else:
+# 		print "Thats a small number"
+	
+# if isinstance(name, str)== 1:
+# 	if name.count("")>=50:
+# 		print "Long Sentence"
+# 	else:
+# 		print "Short Sentence"
+
+# if isinstance(name, list)==1:
+# 	if len(name)>=10:
+# 		print "Big List!"
+# 	else:
+# 		print "Short List!"
+
+
+
+a=25
+if type(a)==int:
+	print "true"
